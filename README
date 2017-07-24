@@ -1,0 +1,5 @@
+This repository contains some curve25519 SPAKE code, adapted to stand
+alone from BoringSSL and use an interface closer to what MIT krb5
+would need, with a test main() function to allow timing tests.  There
+is also a test program to perform equivalent operations using
+OpenSSL's implementation of P-256, for speed comparison.
